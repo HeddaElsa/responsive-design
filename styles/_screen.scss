@@ -6,7 +6,30 @@
     align-items: center;
     background-color: #FFFFFF;
     box-sizing: border-box;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 2440px) {
+    .screen {
     padding-left: 18rem;
     padding-right: 18rem;
     padding-top: 4.2rem;
+    }
 }
+
+@media screen and (max-width: 810px) {
+    .screen {
+    padding-left: 4.6rem;
+    padding-right: 4.6rem;
+    padding-top: 43px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .screen {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 11px;
+    }
+}
+
