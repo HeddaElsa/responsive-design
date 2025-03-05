@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+    margin-top: 9rem;
+}
+
+.main__textpart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 574px;
+    text-align: center;
+}
+
