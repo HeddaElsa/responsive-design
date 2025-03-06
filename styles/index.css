@@ -53,9 +53,10 @@ p {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 24px;
   }
 }
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 768px) {
   .logopart h3 {
     font-family: "Baloo Bhaijaan 2", sans-serif;
     font-optical-sizing: auto;
@@ -75,7 +76,7 @@ p {
 }
 .screen {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,16 +95,18 @@ p {
 
 @media screen and (max-width: 2440px) {
   .screen {
-    padding-left: 18rem;
-    padding-right: 18rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     padding-top: 4.2rem;
+    background-color: #FFFEEE;
   }
 }
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 768px) {
   .screen {
     padding-left: 4.6rem;
     padding-right: 4.6rem;
     padding-top: 43px;
+    background-color: aqua;
   }
 }
 @media screen and (max-width: 320px) {
@@ -111,6 +114,7 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 11px;
+    background-color: rgb(158, 112, 112);
   }
 }
 .header {
@@ -142,6 +146,21 @@ p {
   gap: 29px;
 }
 
+@media screen and (max-width: 2000px) {
+  .icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .navigation__list {
+    display: none;
+  }
+}
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,10 +172,10 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
 }
 
 .main__textpart {
@@ -167,13 +186,15 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .main__imagepart {
@@ -211,7 +232,7 @@ p {
     font-size: 22px;
   }
 }
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 768px) {
   .main {
     gap: 45px;
     margin-top: 14.25rem;

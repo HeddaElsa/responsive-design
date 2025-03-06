@@ -2,16 +2,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-width: 100%;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .main__textpart {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
+    width: 100%;
+    overflow: hidden;
 }
 
 .main__imagepart {
@@ -44,7 +46,7 @@
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 768px) {
     .main {
         gap: 45px;
         margin-top: 14.25rem;
