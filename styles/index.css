@@ -98,7 +98,6 @@ p {
     padding-left: 8rem;
     padding-right: 8rem;
     padding-top: 4.2rem;
-    background-color: #FFFEEE;
   }
 }
 @media screen and (max-width: 768px) {
@@ -106,7 +105,6 @@ p {
     padding-left: 4.6rem;
     padding-right: 4.6rem;
     padding-top: 43px;
-    background-color: aqua;
   }
 }
 @media screen and (max-width: 320px) {
@@ -114,7 +112,6 @@ p {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 11px;
-    background-color: rgb(158, 112, 112);
   }
 }
 .header {
@@ -131,6 +128,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 50px;
   width: 100%;
 }
 
@@ -159,6 +157,9 @@ p {
 @media screen and (max-width: 320px) {
   .navigation__list {
     display: none;
+  }
+  .icon {
+    display: block;
   }
 }
 .main {
@@ -194,7 +195,6 @@ p {
           align-items: center;
   text-align: center;
   width: 100%;
-  overflow: hidden;
 }
 
 .main__imagepart {
